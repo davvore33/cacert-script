@@ -30,5 +30,5 @@ chmod 644 $secondf
 adb push $primof /system/etc/security/cacerts/
 adb push $secondf /system/etc/security/cacerts/
 
-echo ricorda di riavviare il cellulare \[adb reboot \], al termine della procedura dovresti poter\
+echo ricorda di riavviare il cellulare \[adb reboot\], al termine della procedura dovresti poter\
 vedere \"CaCert\" fra i certificati utenti validi \[Impostazioni -\> Sicurezza\]
